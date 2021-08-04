@@ -1,0 +1,87 @@
+
+h1 {
+  color:rgb(125, 90, 80);
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: rgb(180, 132, 108);
+}
+
+.round{
+  border-radius: 50%;
+}
+
+p {
+  color:rgb(180, 132, 108);
+}
+
+a {
+  color:rgb(229, 178, 153);
+  text-decoration:none;
+}
+
+ul > li{
+  display: inline-block;
+}
+
+.social-icon:hover{
+  color: rgb(125, 90, 80);
+}
+
+.social-icon {
+  font-size: 20px;
+  color: rgb(180, 132, 108);
+  margin-right: 8px;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(250, 235, 224);
+  padding: 0px 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.socials {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(250, 235, 224);
+  padding: 0px 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#btn{
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: rgb(125, 90, 80);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, .socials {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container, .socials {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container, .socials {
+    width: 300px;
+  }
+}
